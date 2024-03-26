@@ -5,7 +5,7 @@ import { evenOrOdd, handleResponse, isEmptyObject } from './commonMethods';
 import { ReqColorCodes } from './constants';
 import { setDashboardLoader, setLoadersInitial } from './loadersSlice';
 import { displayPopup, setDashData } from './commonData';
-
+//react icon removed due to depriction of some icon and relevant packages
 export const logoutServiceProvider = () => async (dispatch) => {
   return ds
     .logoutService()
