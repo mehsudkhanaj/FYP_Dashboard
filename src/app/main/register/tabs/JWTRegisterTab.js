@@ -47,14 +47,7 @@ function JWTRegisterTab(props) {
 
   const { isValid, dirtyFields, errors } = formState;
 
-  // useEffect(() => {
-  //   authRegister.errors.forEach((error) => {
-  //     setError(error.type, {
-  //       type: 'manual',
-  //       message: error.message,
-  //     });
-  //   });
-  // }, [authRegister.errors, setError]);
+ 
 
   function onSubmit(model) {
     dispatch(setRegisterLoader(true));
