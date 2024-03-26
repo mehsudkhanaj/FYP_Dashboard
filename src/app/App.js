@@ -11,7 +11,7 @@ import { CacheProvider } from '@emotion/react';
 import { selectCurrLangDir } from 'app/store/i18nSlice';
 import withAppProviders from './withAppProviders';
 import { Auth } from './auth';
-
+//Use of mUi -> Now its depricated
 const emotionCacheOptions = {
   rtl: {
     key: 'muirtl',
