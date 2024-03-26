@@ -29,22 +29,7 @@ function Error404Page() {
           </Typography>
         </motion.div>
 
-        {/* <Paper className="flex items-center w-full h-56 p-16 mt-48 mb-16 shadow">
-          <Icon color="action">search</Icon>
-          <Input
-            placeholder="Search for anything"
-            className="px-16"
-            disableUnderline
-            fullWidth
-            inputProps={{
-              'aria-label': 'Search',
-            }}
-          />
-        </Paper> */}
-
-        {/* <Link className="font-normal" onClick={signedInDefaultRedirect}>
-          {i18next.t(`navigation:GOHOME`)}
-        </Link> */}
+        
       </div>
     </div>
   );
